@@ -104,7 +104,7 @@ public class AdminService
 
             case "MERCHANT":{return Role.ROLE_MERCHANT.toString();}
 
-            default :{return "None";}
+            default : {return "None";}
         }
     }
 
