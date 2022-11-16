@@ -98,13 +98,13 @@ public class AdminService
 
     public String getRole(String role){
         switch (role){
-            case "ADMIN"-> {return Role.ROLE_ADMIN.toString();}
+            case "ADMIN": {return Role.ROLE_ADMIN.toString();}
 
-            case "USER"->{return Role.ROLE_USER.toString();}
+            case "USER":{return Role.ROLE_USER.toString();}
 
-            case "MERCHANT"->{return Role.ROLE_MERCHANT.toString();}
+            case "MERCHANT":{return Role.ROLE_MERCHANT.toString();}
 
-            default -> {return "None";}
+            default :{return "None";}
         }
     }
 
